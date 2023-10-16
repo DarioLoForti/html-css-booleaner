@@ -53,8 +53,9 @@ h4, h6{
     font-weight: 600;
     font-size: 18px;
 }
-table{
+table, th, td, tr{
     margin-top: 30px;
+    border-collapse: collapse;
 }
 .prima-riga{
     background-color: rgb(51, 185, 247);
