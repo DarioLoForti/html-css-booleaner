@@ -16,3 +16,26 @@ header{
     background-position: left;
     padding-left: 5px;
 }
+.contenitore{
+    width: 1010px;
+}
+
+#titolo-principale{
+    padding-top: 10px;
+}
+
+h5, h6{
+    color: gray;
+}
+
+#autore{
+    color: rgb(96, 176, 250);
+}
+.primo-paragrafo{
+    padding-top: 20px;
+    font-weight: 700;
+    font-size: 18px;
+}
+.evidenziato{
+    background-color: rgba(255, 255, 0, 0.795);
+}
