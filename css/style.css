@@ -14,10 +14,12 @@ header{
     width: 150px;
     padding-top: 20px;
     background-position: left;
-    padding-left: 5px;
+    padding-left: 30px;
 }
 .contenitore{
-    width: 1010px;
+    width: 1300px;
+    margin-left: 30px;
+    
 }
 
 #titolo-principale{
@@ -32,10 +34,15 @@ h5, h6{
     color: rgb(96, 176, 250);
 }
 .primo-paragrafo{
-    padding-top: 20px;
-    font-weight: 700;
+    margin-top: 20px;
+    font-weight: 600;
     font-size: 18px;
 }
 .evidenziato{
     background-color: rgba(255, 255, 0, 0.795);
+}
+.lista{
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 18px;
 }
