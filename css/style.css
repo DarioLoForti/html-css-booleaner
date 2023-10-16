@@ -4,34 +4,37 @@
     box-sizing: border-box;
 }
 header{
+    height: 75px;
     background-color: rgb(101, 153, 233);
     background-image:url(../img/pattern.png);
     background-size: contain;
-    background-repeat: space;    
 }
 
 .logo{
     width: 150px;
-    padding-top: 20px;
+    padding-top: 30px;
     background-position: left;
-    padding-left: 30px;
 }
 .contenitore{
-    width: 1300px;
-    margin-left: 30px;
-    
+    width: 1050px;
 }
 
 #titolo-principale{
     padding-top: 10px;
+    width: 800px;
 }
 
-h5, h6{
+
+h4, h6{
     color: gray;
 }
 
 #autore{
     color: rgb(96, 176, 250);
+}
+
+.immagini{
+    margin-top: 20px;
 }
 
 .paragrafo{
@@ -65,4 +68,27 @@ table{
 }
 .colonna{
     width: 200px;
+}
+
+footer{
+    margin-top: 30px;
+}
+.img1, .img2{
+    width: 250px;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+   
+}
+.img1{
+    background-image: url(../img/monitor.jpg);
+}
+.img2{
+    background-image: url(../img/graph.jpg);
+}
+h3{
+    color: white;
+    padding-left: 10px;
+    padding-top: 10px;
 }
