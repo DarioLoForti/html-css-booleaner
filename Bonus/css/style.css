@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 100px;
+    background-color: rgb(101, 153, 233);
+    background-image:url(../img/pattern.png);
+    background-size: contain;
+}
+
+.logo{
+    width: 150px;
+    padding-top: 50px;
+    background-position: left;
+   
+}
+.contenitore{
+    width: 1050px;
+    margin: auto;
+}
+
+#titolo-principale{
+    padding-top: 10px;
+    width: 800px;
+}
+
+
+h4, h6{
+    color: gray;
+}
+
+#autore{
+    color: rgb(96, 176, 250);
+}
+
+.immagini{
+    margin-top: 20px;
+}
+
+.paragrafo{
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.evidenziato{
+    background-color: rgba(255, 255, 0, 0.795);
+}
+
+.lista{
+    margin-top: 30px;
+    padding-left: 15px;
+    font-weight: 600;
+    font-size: 18px;
+}
+table, th, td, tr{
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+.prima-riga{
+    background-color: rgb(51, 185, 247);
+    color: white;
+    text-align: left;
+}
+
+.riga{
+    background-color: rgba(158, 212, 236, 0.788);
+    color: rgb(0, 0, 0);
+}
+.colonna{
+    width: 200px;
+}
+
+footer{
+    margin-top: 30px;
+}
+.img1, .img2{
+    width: 250px;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+   
+}
+.img1{
+    background-image: url(../img/monitor.jpg);
+}
+.img2{
+    background-image: url(../img/graph.jpg);
+}
+h3{
+    color: white;
+    padding-left: 10px;
+    padding-top: 10px;
+}
